@@ -32,7 +32,7 @@ plugins = \
 
 ### Usage examples
 
-Basic usage is simple, import the `wayfire.ipc` module, create a socket (it will auto-detect the compositor by using the `WAYFIRE_SOCKET` environment variable) and call its functions.
+Basic usage is simple, import the `wayfire.ipc` module, create a socket (it will auto-detect the compositor by using the `WAYFIRE_SOCKET` environment variable) and call its functions:
 
 ```py
 from wayfire import WayfireSocket
