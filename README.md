@@ -19,6 +19,16 @@ cd pywayfire
 python3 -m pip install .
 ```
 
+### Configure wayfire.ini
+
+Activate following plugins.
+```ini
+[core]
+plugins = \
+  ipc \
+  ipc-rules
+```
+
 ### Usage examples
 
 Basic usage is simple, import the `wayfire.ipc` module, create a socket (it will auto-detect the compositor by using the `WAYFIRE_SOCKET` environment variable) and call its functions:
